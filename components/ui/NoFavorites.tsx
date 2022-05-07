@@ -19,6 +19,7 @@ export const NoFavorites = () => {
         css={{
           opacity: 0.7
         }}
+        alt='No Image'
       />
     </Container>
   )

@@ -20,6 +20,7 @@ const PokemonByNamePage:NextPage<Props> = ({pokemon}) => {
 
   useEffect(() => {
     setIsInFavorites(localFavorites.existInFavorites(pokemon.id))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
   
 
